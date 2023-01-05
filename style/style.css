@@ -93,4 +93,43 @@ a{
 /* .heroImage{
     position: a;
 } */
+/* ---------------About us-------------- */
+.about{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 160px;
+    text-align: center;
+    border-radius: 20px;
+}
+.sectionHeading{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.sectionDescription{
 
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 40PX;
+}
+.aboutCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardsInfo p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 6px;
+}
+.cardsInfo h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
